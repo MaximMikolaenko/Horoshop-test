@@ -222,10 +222,6 @@ input, select, textarea {
 	margin-bottom: 29px;
 }
 
-.info-block__item::last-child {
-	margin-bottom: 0;
-}
-
 .info-block__digit {
 	font-family: 'Montserrat Bold';
 	font-size: 48px;
@@ -330,10 +326,6 @@ input, select, textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.cms-block__item::last-child {
-	margin-bottom: 0;
 }
 
 .arrow {

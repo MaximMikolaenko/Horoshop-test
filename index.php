@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css"/>
 	<title>Horoshop Test</title>
 </head>
 <body>
@@ -15,7 +15,7 @@
 					<p class="header__text">Миграция на Хорошоп позволит сделать ваш сайт более функциональным и стабильным, без потери контента и seo</p>
 				</div>
 				<div class="header__image">
-					<img src="img/Group_2.png" alt="Logo" class="logo">
+					<img src="img/Group_2.png" alt="Logo" class="logo" />
 				</div>
 			</div>
 		</div>
@@ -59,29 +59,29 @@
 			</div>
 			<div class="cms-block__box">
 				<div class="cms-block__item">
-					<img src="img/bitrix-logo.svg" alt="Bitrix" class="cms-logo">
+					<img src="img/bitrix-logo.svg" alt="Bitrix" class="cms-logo" />
 				</div>
 				<div class="cms-block__item">
-					<img src="img/woo.png" alt="Woocommerce" class="cms-logo">
+					<img src="img/woo.png" alt="Woocommerce" class="cms-logo" />
 				</div>
 				<div class="cms-block__item">
-					<img src="img/opencart.png" alt="Opencart" class="cms-logo">
+					<img src="img/opencart.png" alt="Opencart" class="cms-logo" />
 				</div>
 				<div class="cms-block__item">
-					<img src="img/prom.png" alt="Prom" class="cms-logo">
+					<img src="img/prom.png" alt="Prom" class="cms-logo" />
 				</div>
 				<div class="cms-block__item">
-					<img src="img/magento.png" alt="Magento" class="cms-logo">
+					<img src="img/magento.png" alt="Magento" class="cms-logo" />
 				</div>
 				<div class="cms-block__item">
-					<img src="img/virtuemart.png" alt="Virtuemart" class="cms-logo">
+					<img src="img/virtuemart.png" alt="Virtuemart" class="cms-logo" />
 				</div>
 			</div>
 			<div class="arrow">
-				<img src="img/arrow.png" alt="Arrow" class="arrow-img">
+				<img src="img/arrow.png" alt="Arrow" class="arrow-img" />
 			</div>
 			<div class="horoshop">
-				<img src="img/horoshop_logo_fixed.svg" alt="Horoshop" class="horoshop-logo">
+				<img src="img/horoshop_logo_fixed.svg" alt="Horoshop" class="horoshop-logo" />
 			</div>
 		</div>
 	</div>
@@ -92,7 +92,7 @@
 				<div class="subtitle-text">Мы сохраним url для категорий и товаров вашего старого магазина, чтобы переезд прошел безболезненно для вашего дальнейшего SEO-продвижения</div>
 			</div>
 			<div class="seo-block__image">
-				<img src="img/image.png" alt="Seo" class="seo-img">
+				<img src="img/image.png" alt="Seo" class="seo-img" />
 			</div>
 			<div class="block__text-box">
 				<div class="block__text-item">
