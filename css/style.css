@@ -1,0 +1,533 @@
+* {
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    overflow-y: scroll !important;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+    color: @gray_darken1;
+}
+
+strong {
+    font-weight: bold;
+}
+
+input, select, textarea {
+    border: 1px solid #6F6F6F;
+}
+
+@font-face {
+	font-family: 'Montserrat Regular';
+	src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Montserrat Medium';
+	src: url('../fonts/Montserrat-Medium.ttf');
+}
+
+@font-face {
+	font-family: 'Montserrat SemiBold';
+	src: url('../fonts/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+	font-family: 'Montserrat Bold';
+	src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+	font-family: 'Open Sans Regular';
+	src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Open Sans SemiBold';
+	src: url('../fonts/OpenSans-SemiBold.ttf');
+}
+
+.header {
+	width: 100%;
+	max-width: 1920px;
+	background: linear-gradient(0deg, #294366, #294366), linear-gradient(115.39deg, #3F2BB1 1.64%, #C86CD7 100%);
+	overflow: hidden;
+}
+
+.container {
+	max-width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.header__block {
+	display: flex;
+	justify-content: space-between;
+	align-items: center; 
+	color: #fff;
+}
+
+.header__title {
+	font-family: 'Montserrat Bold';
+	font-size: 60px;
+	line-height: 120%;
+}
+
+.header__text {
+	margin-top: 25px;
+	font-family: 'Montserrat Regular';
+	font-size: 24px;
+	line-height: 155%;
+}
+
+.header__image {
+	margin-right: -123px;
+}
+
+.info-block {
+	position: relative;
+	padding-top: 44px;
+	overflow: hidden;
+}
+
+.info-block__content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.info-block__back-color1 {
+	position: absolute;
+	width: 959px;
+	height: 286px;
+	top: 0px;
+	left: 50%;
+	margin-left: -959px;
+	background: linear-gradient(0deg, #2D5080, #2D5080);
+	z-index: 2;
+}
+
+.info-block__back-color1::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 958px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 143px 0 143px 75px;
+	border-color: transparent transparent transparent #2D5080;
+}
+
+.info-block__back-color2 {
+	position: absolute;
+	width: 989px;
+	height: 286px;
+	top: 0px;
+	left: 50%;
+	margin-left: -959px;
+	background: linear-gradient(0deg, #2D5080, #2D5080);
+	opacity: 0.4;
+	z-index: 3;
+}
+
+.info-block__back-color2::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 988px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 143px 0 143px 75px;
+	border-color: transparent transparent transparent #2D5080;
+	z-index: 3;
+}
+
+
+.info-block__back-color3 {
+	position: absolute;
+	width: 1019px;
+	height: 286px;
+	top: 0px;
+	left: 50%;
+	margin-left: -959px;
+	background: linear-gradient(0deg, #2D5080, #2D5080);
+	opacity: 0.3;
+	z-index: 4;
+}
+
+.info-block__back-color3::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 1018px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 143px 0 143px 75px;
+	border-color: transparent transparent transparent #2D5080;
+	z-index: 4;
+}
+
+.info-block__back-color4 {
+	position: absolute;
+	width: 1019px;
+	height: 286px;
+	top: 0px;
+	right: 0;
+	background: #1B2F4D;
+	z-index: 1;
+}
+
+.info-block__left {
+	position: relative;
+	z-index: 10;
+
+}
+
+.info-block__item {
+	max-width: 447px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 29px;
+}
+
+.info-block__item::last-child {
+	margin-bottom: 0;
+}
+
+.info-block__digit {
+	font-family: 'Montserrat Bold';
+	font-size: 48px;
+	color: #000000;
+	opacity: 0.2;
+}
+
+.info-block__text {
+	width: 405px;
+	font-family: 'Montserrat Medium';
+	font-size: 18px;
+	line-height: 130%;
+	color: #FFFFFF;
+}
+
+.info-block__right {
+	position: relative;
+	z-index: 10;
+}
+
+.migration-form__input-site, .migration-form__input-email {
+	width: 380px;
+	height: 48px;
+	background: #FFFFFF;
+	border-radius: 4px;
+	font-family: 'Open Sans Regular';
+	font-size: 18px;
+	line-height: 30px;
+	display: flex;
+	align-items: center;
+	padding-left: 21px;
+	padding-right: 5px;
+}
+
+.migration-form__input-site::placeholder, .migration-form__input-email::placeholder {
+	font-family: 'Open Sans Regular';
+	font-size: 18px;
+	line-height: 30px;
+	display: flex;
+	align-items: center;
+	color: #000000;
+	opacity: 0.3;
+}
+
+.migration-form__input-site_info-block {
+	margin-bottom: 20px;
+}
+
+.migration-form__input-email_info-block {
+	margin-bottom: 30px;
+}
+
+.migration-form__btn {
+	width: 222px;
+	height: 48px;
+	background: linear-gradient(360deg, #69B510 0%, #80C319 100%);
+	border-radius: 4px;
+	font-family: 'Open Sans SemiBold';
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.migration-form__btn:hover {
+	cursor: pointer;
+}
+
+.cms-block {
+	padding: 85px 0 88px;
+}
+
+.title {
+	font-family: 'Montserrat SemiBold';
+	font-size: 36px;
+	line-height: 140%;
+	text-align: center;
+	color: #000000;
+}
+
+.subtitle-text {
+	max-width: 800px;
+	margin: 21px auto 60px; 
+	font-family: 'Montserrat Medium';
+	font-size: 18px;
+	line-height: 160%;
+	text-align: center;
+	color: #000000;
+}
+
+.cms-block__box {
+	max-width: 1058px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.cms-block__item {
+	width: 306px;
+	margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cms-block__item::last-child {
+	margin-bottom: 0;
+}
+
+.arrow {
+	margin-top: 45px;
+	text-align: center;
+}
+
+.horoshop {
+	margin-top: 53px;
+	text-align: center;
+}
+
+.seo-block {
+	background: #F7F9FA;
+	padding-top: 62px;
+}
+
+.seo-block__image {
+	text-align: center;
+}
+
+.block__text-box {
+	margin-top: 77px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.block__text-item {
+	width: 340px;
+	margin-bottom: 60px;
+}
+
+.strong-text {
+	font-family: 'Montserrat SemiBold';
+	font-size: 18px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.description {
+	margin-top: 14px;
+	font-family: 'Open Sans Regular';
+	font-size: 16px;
+	line-height: 27px;
+	color: #4D4D4D;
+}
+
+.footer {
+	background: #172E4D;
+	padding: 60px 0 80px;
+}
+
+.title_footer, .subtitle-text_footer {
+	color: #fff;
+}
+
+.migration-form_footer {
+	display: flex;
+	justify-content: center;
+}
+
+.migration-form__input-site_footer, .migration-form__input-email_footer {
+	margin-right: 20px;
+}
+
+@media screen and (max-width: 991px){
+	.header__title {
+		font-size: 43px;
+	    line-height: 110%;
+	}
+
+	.header__text {
+	    font-size: 21px;
+	    line-height: 135%;
+	}
+
+	.seo-img {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 991px){
+
+	.info-block {
+		padding: 0;
+	}
+
+	.info-block__back-color1 {
+		width: 1000px;
+		margin-left: 0;
+		left: 0;
+	}
+
+	.info-block__back-color2, .info-block__back-color2 {
+		display: none;
+	}
+
+	.info-block__back-color4 {
+		top: 285px;
+	}
+
+	.info-block__content {
+		flex-direction: column;
+	}
+
+	.info-block__left {
+		padding: 42px 0;
+	}
+
+	.info-block__item {
+		margin: 0 auto 29px;
+	}
+
+	.info-block__item:last-child {
+		margin-bottom: 0;
+	}
+
+	.info-block__right {
+		padding: 49px 0;
+	}
+
+	.migration-form input {
+		margin: 0 auto 20px;
+	}
+
+	.migration-form {
+		display: block;
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 768px){
+
+	.header {
+		padding-bottom: 25px;
+	}
+
+	.header__block {
+		flex-direction: column-reverse;
+	}
+
+	.header__text-block {
+		text-align: center;
+	}
+
+	.header__image {
+		margin: 0 auto;
+	}
+
+	.logo {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 640px){
+
+	.header__title {
+		font-size: 36px;
+	}
+
+	.title {
+		font-size: 32px;
+	}
+
+	.cms-block__box {
+		justify-content: center;
+	}
+
+	.cms-block__item {
+		height: 100px;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.horoshop-logo {
+		width: 100%;
+	}
+
+	.migration-form__input-site, .migration-form__input-email {
+		width: 250px;
+	}
+	.info-block__digit {
+		margin-right: 15px;
+	}
+}
+
+@media screen and (max-width: 400px){
+	.info-block__back-color1 {
+		height: 328px;
+	}
+
+	.info-block__back-color4 {
+		top: 327px;
+	}
+}
